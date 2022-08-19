@@ -1,0 +1,33 @@
+{
+    "name": "@hexlet/code",
+    "version": "1.0.0",
+    "description": "Hexlet project 2",
+    "main": "index.js",
+    "type": "module",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "bin": {
+        "gendiff": "bin/gendif.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/Dloed/fullstack-javascript-project-lvl2.git"
+    },
+    "author": "Vadim Borisov",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/Dloed/fullstack-javascript-project-lvl2/issues"
+    },
+    "homepage": "https://github.com/Dloed/fullstack-javascript-project-lvl2#readme",
+    "dependencies": {
+        "comander": "^0.0.1-security",
+        "commander": "^9.4.0",
+        "express": "^4.18.1"
+    },
+    "devDependencies": {
+        "eslint": "^8.22.0",
+        "eslint-config-airbnb-base": "^15.0.0",
+        "eslint-plugin-import": "^2.26.0"
+    }
+}
